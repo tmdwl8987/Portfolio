@@ -1,0 +1,65 @@
+body {font-family: 'Nanumsquare', 'Raleway';}
+#navTop {position: fixed; width: 100%; height: 70px; z-index: 1; overflow: hidden; background: #fff; border-bottom: 1px solid #ccc;}
+#navTop_box {width: 80%; height: 70px; line-height: 70px; margin: 0 auto; transition: all 1s;}
+#navTop_box #logo {width: 60px;}
+#navTop_box #logo img {width: 100%; line-height: 70px; vertical-align: middle;}
+#navTop_box #topMenu {position: absolute; right: 10%; top: 0px; overflow: hidden;}
+#navTop_box #topMenu li {float: left; padding-left: 30px;}
+#navTop_box #topMenu li a {font-size: 20px;}
+#navTop_box #topMenu li.active > a { color: #31bc5c; font-weight: bold;}
+
+.section_box {width: 1280px; margin: 0 auto;}
+.section_box h2 {position: relative; top: 150px; font-size: 36px; text-align: center; letter-spacing: 5px;}
+
+.s1 h3 {display: none;}
+
+
+/*s2*/
+.slide {height: 80%; overflow: hidden;}
+.slide .pf_img_container {width: 45%; display: inline-block; position: relative; float: left; margin-left: 5%;}
+.slide .pf_img_container .pf_img_1 {width: 500px; position: relative; left: 20px; top: 0; margin-top: 20px;}
+.slide .pf_img_container .pf_img_2 {width: 210px; position: absolute; right: 0; top: 170px;}
+.slide .pf_img_container .pf_img_3 {width: 125px; position: absolute; left: 1px; top: 220px;}
+
+.slide .pf_txt_container {width: 45%; display: inline-block; padding-left: 6%;}
+.slide .pf_txt_container .pf_title {font-size: 26px; margin: 25px 0; padding: 10px 0; text-align: center; background: #aaa; color: #fff; font-weight: normal; border-radius: 10px;}
+.slide .pf_txt_container .pf_name {display: inline-block; width: 25%; float: left; padding: 13px 0px; font-size: 16px;}
+.slide .pf_txt_container .pf_txt {display: inline-block; width: 75%; padding: 13px 0px; font-weight: bold; font-size: 16px; line-height: 1.3}
+.slide .pf_txt_container .pf_subtxt {display: inline-block; width: 75%; padding: 0px; font-weight: normal; font-size: 14px; margin-left: 25%; margin-top: -10px; line-height: 1.3}
+/*.slide .pf_txt_container .pf_gosite {width: 100%; text-align: center; margin-top: 30px;}
+.slide .pf_txt_container .pf_gosite a {display: inline-block; width: 100%; padding: 10px 0px; font-size: 18px; border: 1px solid #000;}
+.slide .pf_txt_container .pf_gosite a:before {left: 50%; top: 0; transform: translateX(-50%); width: 0; height: 100%;}
+.slide .pf_txt_container .pf_gosite a:hover:before {width: 100%;}*/
+
+
+.pf_gosite {position: relative; text-align: center; margin-top: 30px;}
+.pf_gosite a {overflow: hidden; position: relative; display: inline-block; vertical-align: top; width: 100%; padding: 10px 0; font-size: 18px; border: 1px solid #000; transition: all 0.5s;}
+.pf_gosite a:hover {color: #fff; border: 1px solid #31bc5c}
+.pf_gosite a:before {content: ""; z-index: -1; position: absolute; background: #31bc5c; transition: all 1s; left: 50%; top: 0; transform: translateX(-50%); width: 0; height: 100%;}
+.pf_gosite a:hover:before {width: 100%;}
+
+/*s2 slideNavigation*/
+.fp-slidesNav.fp-bottom {text-align: center; bottom: 110px;}
+#fp-nav ul li,.fp-slidesNav ul li {margin: 0px 60px;}
+#fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 120px; background: #31bc5c; margin: -2px 0 0 -60px; border-radius: 0;}
+#fp-nav ul li a span,.fp-slidesNav ul li a span{border-radius: 0; height:12px; width: 120px; border: 0; background: #ddd; margin: -2px 0 0 -60px;}
+#fp-nav ul li:hover a span,.fp-slidesNav ul li:hover a span {width: 120px; height: 12px; margin: -2px 0 0 -60px; cursor: pointer; background: #aaa;}
+
+.fp-controlArrow.fp-prev {left: 5%; background: url(../img/left_btn.png) no-repeat; width: 50px; height: 150px; z-index: 1}
+.fp-controlArrow.fp-next {right: 5%; background: url(../img/right_btn.png) no-repeat; width: 50px; height: 150px; z-index: 1}
+
+ul.fp_name_box {position: relative; bottom: 140px; left: 376px; text-align: center;}
+ul.fp_name_box li{float: left; width: 120px; margin-right: 15px; font-size: 16px; font-weight: bold;}
+
+
+
+@media screen and (min-width:1280px) and (max-width:1599px) {
+    #navTop_box {width: 90%; height: 80px; line-height: 80px; margin: 0 auto;}
+    .section_box {width: 90%; margin: 0 auto;}
+    
+    .fp-controlArrow.fp-prev {left: 5%; width: 50px; height: 150px;}
+    .fp-controlArrow.fp-next {right: 5%; width: 50px; height: 150px;}
+}
+@media screen and (min-width:768px) and (max-width:1279px) {}
+    
+@media screen and (max-width:767px) {}
