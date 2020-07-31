@@ -8,7 +8,7 @@ body {font-family: 'Nanumsquare', 'Raleway';}
 #navTop_box #topMenu {position: absolute; right: 0; top: 0px; overflow: hidden;}
 #navTop_box #topMenu li {float: left; padding-left: 30px; line-height: 70px; transition: all 1s;}
 #navTop_box #topMenu li a {font-size: 18px;}
-#navTop_box #topMenu li.active > a { color: #56996B; font-weight: bold;}
+#navTop_box #topMenu li.active > a {color: #56996b; border-bottom: 3px solid #56996b; font-weight: bold; padding-bottom: 4px;}
 
 .section_content {width: 1280px; margin: 0 auto; transition: all 1s;}
 .section_content h2 {position: relative; text-align: center; font-size: 36px; letter-spacing: 5px;}
@@ -69,7 +69,7 @@ body {font-family: 'Nanumsquare', 'Raleway';}
 .right_box .ct_inbox .ct_title h3 {text-align: center; width: 140px; display: inline-block; background: #ddd; font-size: 20px; color: #46524a;}
 .right_box .ct_inbox .ct_txt {display: flex;}
 .right_box .ct_inbox .ct_txt ul {flex: 1;}
-.right_box .ct_inbox .ct_txt ul li {text-align: center; font-size: 18px;}
+.right_box .ct_inbox .ct_txt ul li {text-align: center; font-size: 18px; display: none;}
 .right_box .ct_inbox .ct_txt ul li:nth-child(1) {text-align: center; padding: 15px 0 12px 0;}
 .right_box .ct_inbox .ct_txt ul li:nth-child(1) img {width: 20%; vertical-align: bottom;}
 
@@ -160,7 +160,7 @@ body {font-family: 'Nanumsquare', 'Raleway';}
 #navTop_box #logo > span {font-size: 12px; top: 32px; left: 5px;}
 #navTop_box #topMenu li {padding-left: 25px; line-height: 60px;}
 #navTop_box #topMenu li a {font-size: 16px;}
-
+#navTop_box #topMenu li.active > a {border-bottom: 2px solid #56996b; padding-bottom: 3px;}
 .section_content {width: 90%;}
 .section_content h2 {position: relative; text-align: center; font-size: 28px; letter-spacing: 4px;}
 .section_content1 h2 {background: #B3D0BC; color: #fff; padding: 10px 0px; margin-top: 60px;}
@@ -260,6 +260,7 @@ body {font-family: 'Nanumsquare', 'Raleway';}
 #navTop_box #logo > span {display: none;}
 #navTop_box #topMenu li {padding-left: 10px; line-height: 50px;}
 #navTop_box #topMenu li a {font-size: 14px;}
+#navTop_box #topMenu li.active > a {border-bottom: 0; padding: 4px; background: #B3D0BC; color: #fff; border-radius: 5px;}
 
 .section_content {width: 90%;}
 .section_content h2 {position: relative; text-align: center; font-size: 20px; letter-spacing: 4px;}

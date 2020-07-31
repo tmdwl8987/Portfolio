@@ -316,16 +316,23 @@
         scrollingSpeed: 1000,
         slidesNavigation: true,
 		slidesNavPosition: 'bottom',
-/*        onLeave: function(origin, destination, direction) {
-           if(origin.index == 1){
-               $('.s1 h3').hide();
+        /*onLeave: function(origin, destination, direction) {
+           if(origin.index == 2){
+               $('.skill_item .sk_txt_box .sk_txt').fadeOut();
            } 
-        },
-        afterLoad: function(origin, destination, direction) {
-            if(destination.index == 1) {
-                $('.s1 h3').show();
+        },*/
+        onLeave: function(origin, destination, direction) {
+            var leavingSection = this;
+            if(origin.index == 0) {
+                $('.right_box .ct_inbox .ct_txt ul li').delay(600).fadeIn();
             }
-        }*/
+            if(origin.index == 2) {
+                $('.right_box .ct_inbox .ct_txt ul li').delay(600).fadeIn();
+            }
+            if(origin.index == 1) {
+                $('.right_box .ct_inbox .ct_txt ul li').fadeOut();
+            }
+        }
         
     });
 </script>
