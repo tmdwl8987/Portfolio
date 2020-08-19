@@ -1,4 +1,4 @@
-body {font-family: 'Nanumsquare', 'Raleway';}
+body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 #navTop {position: fixed; width: 100%; height: 70px; z-index: 1; overflow: hidden; background: #fff; border-bottom: 1px solid #ccc;}
 #navTop_box {width: 80%; height: 70px; margin: 0 auto; transition: all 1s; position: relative;}
 #navTop_box #logo {width: 210px; overflow: hidden; position: relative;}
@@ -286,12 +286,12 @@ body {font-family: 'Nanumsquare', 'Raleway';}
 /*s1*/
 /*s1 profile*/
 .pr_container {padding-top: 20px;}
-.pr_container .pr_profile {width: 100%; display: inline-block; position: relative; float: none; padding-left: 0; margin-bottom: 20px;}
-.pr_container .pr_profile div {margin: 0 auto; width: 35%; float: left; display: inline-block;}
-.pr_container .pr_profile div img {width: 150px;}
+.pr_container .pr_profile {width: 100%; display: inline-block; position: relative; float: none; padding-left: 0; margin-bottom: 15px;}
+.pr_container .pr_profile div {margin: 0 auto; width: 30%; float: left; display: inline-block;}
+.pr_container .pr_profile div img {}
 .pr_container .pr_profile ul {width: 74%; margin-top: 0px; display: inline-block; position: absolute; bottom: 5px; border-left: 0;}
 .pr_container .pr_profile ul li {padding-bottom: 10px; font-size: 13px;}
-.pr_container .pr_profile ul li:nth-child(1) {padding-bottom: 20px; font-size: 15px; font-weight: bold;}
+.pr_container .pr_profile ul li:nth-child(1) {padding-bottom: 20px; font-size: 14px; font-weight: bold;}
 .pr_container .pr_profile ul li:nth-child(4) {padding-bottom: 0px;}
 .pr_container .pr_profile ul li i {padding-right: 10px;}
     
@@ -302,21 +302,21 @@ body {font-family: 'Nanumsquare', 'Raleway';}
 .right_box .pr_box .pr_title {float: none; display: block; width: 100%; font-size: 16px; margin-bottom: 10px;}
 .right_box .pr_box .pr_date {display: none;}
 .right_box .pr_box .pr_txt {width: 100%; display: block;}
-.right_box .pr_box .pr_txt div {padding-bottom: 8px; padding-left: 8px; font-size: 13px; font-weight: normal;}
-.right_box .pr_box .pr_txt div:nth-of-type(2) {padding-bottom: 15px;}
+.right_box .pr_box .pr_txt div {padding-bottom: 8px; padding-left: 8px; font-size: 12px; font-weight: normal;}
+.right_box .pr_box .pr_txt div:nth-of-type(2) {padding-bottom: 10px;}
 .right_box .pr_box .pr_txt ul {display: none;}
       
 /*s1 contact*/
-.right_box .ct_box {width: 100%; height: 115px;}
-.right_box .ct_inbox {width: calc(100% - 16px); height: calc(100% - 16px); top: 8px;}
-.right_box .ct_inbox .ct_title {top: -5px; height: 23px;}
+.right_box .ct_box {width: 100%; height: 100px;}
+.right_box .ct_inbox {width: calc(100% - 14px); height: calc(100% - 14px); top: 7px;}
+.right_box .ct_inbox .ct_title {top: -7px; height: 20px;}
 .right_box .ct_inbox .ct_title h3 {font-size: 18px; width: 100px;}
 .right_box .ct_inbox .ct_txt {display: block;}
-.right_box .ct_inbox .ct_txt ul {flex: none;}
-.right_box .ct_inbox .ct_txt ul li {font-size: 14px; float: left;}
+.right_box .ct_inbox .ct_txt ul {flex: none; margin-bottom: -5px;}
+.right_box .ct_inbox .ct_txt ul li {font-size: 13px; float: left;}
 .right_box .ct_inbox .ct_txt ul li:nth-child(1) {padding: 0;}
-.right_box .ct_inbox .ct_txt ul li:nth-of-type(2n-1) {width: 10%; height: 25px; margin-left: 15%; text-align: left;}
-.right_box .ct_inbox .ct_txt ul li:nth-of-type(2n) {width: 70%; height: 25px; line-height: 20px; text-align: left; font-weight: bold;}
+.right_box .ct_inbox .ct_txt ul li:nth-of-type(2n-1) {width: 10%; height: 22px; margin-left: 15%; text-align: left;}
+.right_box .ct_inbox .ct_txt ul li:nth-of-type(2n) {width: 70%; height: 22px; line-height: 20px; text-align: left; font-weight: bold;}
 .right_box .ct_inbox .ct_txt ul li:nth-child(1) img {width: 18px;}
     
     
