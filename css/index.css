@@ -211,13 +211,13 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .right_box .ct_inbox .ct_title h3 {font-size: 18px;}
 .right_box .ct_inbox .ct_txt {}
 .right_box .ct_inbox .ct_txt ul li {font-size: 16px;}
-.right_box .ct_inbox .ct_txt ul li:nth-child(1) {padding: 0 0 6px 0;}
+.right_box .ct_inbox .ct_txt ul li:nth-child(1) {padding: 0 0 8px 0; margin-top: -4px;}
 .right_box .ct_inbox .ct_txt ul li:nth-child(1) img {width: 40px;}
 
     
 /*s2*/
-.skill_wrapper {display: grid; grid-template-columns: 50% 50%; grid-template-rows: 200px 200px 200px; padding-top: 20px;}
-.skill_wrapper {display: -ms-grid;display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; -ms-grid-rows: 200px 200px 200px; grid-template-rows: 200px 200px 200px; padding-top: 20px;}.skill_wrapper > *:nth-child(1) {-ms-grid-row: 1;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(2) {-ms-grid-row: 1;-ms-grid-column: 2;}.skill_wrapper > *:nth-child(3) {-ms-grid-row: 2;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(4) {-ms-grid-row: 2;-ms-grid-column: 2;}.skill_wrapper > *:nth-child(5) {-ms-grid-row: 3;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(6) {-ms-grid-row: 3;-ms-grid-column: 2;}
+.skill_wrapper {display: grid; grid-template-columns: 50% 50%; grid-template-rows: 190px 190px 190px; padding-top: 20px;}
+.skill_wrapper {display: -ms-grid;display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; -ms-grid-rows: 190px 190px 190px; grid-template-rows: 190px 190px 190px; padding-top: 20px;}.skill_wrapper > *:nth-child(1) {-ms-grid-row: 1;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(2) {-ms-grid-row: 1;-ms-grid-column: 2;}.skill_wrapper > *:nth-child(3) {-ms-grid-row: 2;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(4) {-ms-grid-row: 2;-ms-grid-column: 2;}.skill_wrapper > *:nth-child(5) {-ms-grid-row: 3;-ms-grid-column: 1;}.skill_wrapper > *:nth-child(6) {-ms-grid-row: 3;-ms-grid-column: 2;}
 .skill_item:nth-child(2) {border-left: 0;}
 .skill_item:nth-child(3) {border-top: 0; border-left: 2px solid #ccc;}
 .skill_item:nth-child(4) {border-top: 0; border-left: 0}
@@ -231,13 +231,13 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 
 /*s3*/
 .slide h2 {padding-bottom: 50px;}
-.section_content3 {width: 540px;}
+.section_content3 {width: 520px;}
 .slide .pf_img_container {display: none;}
 .slide .pf_txt_container {width: 100%; padding-left: 20px; padding-right: 20px; margin-top: -30px;}
 .slide .pf_txt_container .pf_title {display: none;}
 .slide .pf_txt_container .mpf_img {display: block; margin-bottom: 10px; margin: 0 auto;}
-.slide .pf_txt_container .pf_name {width: 25%; float: left; padding: 8px 0px; font-size: 15px;}
-.slide .pf_txt_container .pf_txt {width: 75%; padding: 8px 0px; font-weight: bold; font-size: 15px; line-height: 1.3;}
+.slide .pf_txt_container .pf_name {width: 25%; float: left; padding: 8px 0px; font-size: 14px; line-height: 1.3;}
+.slide .pf_txt_container .pf_txt {width: 75%; padding: 8px 0px; font-weight: bold; font-size: 14px; line-height: 1.3;}
 .slide .pf_txt_container .pf_subtxt {display: none;}
 .pf_gosite {margin-top: 10px;}
 .slide .pf_txt_container p span {display: none;}
