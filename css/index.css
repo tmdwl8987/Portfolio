@@ -162,7 +162,7 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 #navTop_box #topMenu li a {font-size: 16px;}
 #navTop_box #topMenu li.active > a {border-bottom: 2px solid #56996b; padding-bottom: 3px;}
 .section_content {width: 90%;}
-.section_content h2 {position: relative; text-align: center; font-size: 28px; letter-spacing: 4px;}
+.section_content h2 {position: relative; text-align: center; font-size: 24px; letter-spacing: 4px;}
 .section_content1 h2 {background: #B3D0BC; color: #fff; padding: 10px 0px; margin-top: 60px;}
 .section_content2 h2 {margin-top: 50px;}
 
@@ -187,30 +187,31 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .pr_container {padding-top: 25px;}
 .pr_container .pr_profile {width: 100%; display: inline-block; position: relative; float: none; padding-left: 5%; margin-bottom: 20px;}
 .pr_container .pr_profile div {margin: 0 auto; width: 26%; float: left; display: inline-block;}
-.pr_container .pr_profile div img {width: 150px;}
+.pr_container .pr_profile div img {width: 140px;}
 .pr_container .pr_profile ul {width: 74%; margin-top: 0px; display: inline-block; position: absolute; bottom: 5px; border-left: 0;}
-.pr_container .pr_profile ul li {padding-bottom: 15px; font-size: 15px;}
-.pr_container .pr_profile ul li:nth-child(1) {padding-bottom: 30px; font-size: 18px; font-weight: bold;}
+.pr_container .pr_profile ul li {padding-bottom: 12px; font-size: 15px;}
+.pr_container .pr_profile ul li:nth-child(1) {padding-bottom: 25px; font-size: 18px; font-weight: bold;}
 .pr_container .pr_profile ul li:nth-child(4) {padding-bottom: 0px;}
 .pr_container .pr_profile ul li i {padding-right: 10px;}
     
 /*s1 education, license*/
 .pr_container .right_box {width: 100%; padding: 0 10px;}
-.right_box .pr_box {margin-bottom: 20px;}
+.right_box .pr_box {margin-bottom: 16px;}
 .right_box .pr_box .pr_title {font-size: 18px;}
 .right_box .pr_box .pr_date div {padding-bottom: 10px; font-size: 15px;}
 .right_box .pr_box .pr_date div br {display: block;}
 .right_box .pr_box .pr_txt div {padding-bottom: 10px; font-size: 15px;}
 .right_box .pr_box .pr_txt div:nth-of-type(2) {padding-bottom: 15px;}
 .right_box .pr_box .pr_txt ul {padding-left: 15px;}
-.right_box .pr_box .pr_txt ul li {padding-bottom: 7px; word-spacing: 3px; font-size: 13px; line-height: 1.3;}
+.right_box .pr_box .pr_txt ul li {padding-bottom: 7px; word-spacing: 3px; font-size: 12px; line-height: 1.3;}
     
 /*s1 contact*/
-.right_box .ct_box {width: 100%; height: 160px;}
-.right_box .ct_inbox {width: calc(100% - 40px); height: calc(100% - 40px);}
-.right_box .ct_inbox .ct_title h3 { font-size: 18px; }
+.right_box .ct_box {width: 100%; height: 130px;}
+.right_box .ct_inbox {width: calc(100% - 30px); height: calc(100% - 30px); top: 15px;}
+.right_box .ct_inbox .ct_title h3 {font-size: 18px;}
+.right_box .ct_inbox .ct_txt {}
 .right_box .ct_inbox .ct_txt ul li {font-size: 16px;}
-.right_box .ct_inbox .ct_txt ul li:nth-child(1) {padding: 10px 0 12px 0;}
+.right_box .ct_inbox .ct_txt ul li:nth-child(1) {padding: 0 0 6px 0;}
 .right_box .ct_inbox .ct_txt ul li:nth-child(1) img {width: 40px;}
 
     
