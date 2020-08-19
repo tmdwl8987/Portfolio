@@ -330,7 +330,7 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .skill_item .sk_txt_box .graph {display: block; width: 100%; height: 22px; border: 1px solid  #56996b; margin-top: 9px; padding: 4px 0px;}
 .skill_item .sk_txt_box .graph_bar {height: 11px; background: #56996b;}
 .skill_item .sk_txt_box .sk_txt2 li {float: left; width: 50%;  padding: 2px 5px; line-height: 1; font-size: 13px;}
-.skill_item .sk_txt_box .sk_txt2 li img {padding-right: 7px; width: 21px; vertical-align: b}
+.skill_item .sk_txt_box .sk_txt2 li img {padding-right: 7px; width: 21px;}
 .skill_item .sk_txt_box .sk_txt_office {height: 60px;}
 .skill_item .sk_txt_box .sk_txt_design {height: 30px;}
     
